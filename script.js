@@ -5,7 +5,7 @@ async function getData() {
 	console.log(data.sentence)
 	console.log(data.character.name)
 
-	document.getElementById("sentence").textContent = "'" + data.sentence + "'"
+	document.getElementById("quote").textContent = "'" + data.sentence + "'"
 	document.getElementById("person").textContent = "-" + data.character.name
 }
 
