@@ -9,6 +9,6 @@ async function getData() {
 	document.getElementById("person").textContent = "-" + data.character.name
 }
 
-var view=document.getElementById("view");
+var view = document.getElementById("view");
 view.addEventListener("click", getData, false);
 
