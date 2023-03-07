@@ -1,4 +1,4 @@
-const url = "https://icanhazdadjoke.com/j/R7UfaahVfFd"
+const url = "https://api.gameofthronesquotes.xyz/v1/random"
 async function getData() {
 	const response = await fetch(url)
 	const data = await response.json()
