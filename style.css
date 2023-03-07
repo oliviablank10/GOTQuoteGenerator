@@ -8,7 +8,7 @@ h1 {
 	font-weight: 600;
 	font-style: normal;
 	font-size: 52pt;
-	color: black;
+	color: white;
 }
 
 main {
@@ -23,7 +23,7 @@ p {
 	font-weight: 400;
 	font-style: normal;
 	color: black;
-	background-color: black;
+	background-color: white;
 }
 
 quote {
